@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>form page</title>
+    <style>
+     button{
+       border-block-color:blue ;
+     }
+     button:hover {
+       background-color: blue;
+       color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <CENTER>
+     <H2>REGISTRATION FORM</H2>
+    </CENTER>
+     Students rollno <input type="text" name=rollno required placeholder="Enter your rollno"><br><br>
+     Students name <input type="text" name=name required placeholder="Enter your name"><br><br>
+     
+     <form>
+      <label for="dept">Students dept </label>
+      <select name="dept" id="dept">
+      <option value="cse">Computer Science And Engineering</option>
+      <option value="AI&DS">Artificial Intelligence And Data Science</option>
+      <option value="ece">Electronics And Communication Engineering</option>
+      <option value="mech">Mechanical Engineering</option>
+      </select><br><br>
+      
+     </form>
+    
+     Students 10th marks <input type="text" required placeholder="Enter your 10 th mark"><br><br>
+     Students 12th marks <input type="text" required placeholder="Enter your 12 th mark"><br><br>
+     Degree percentage <input type="text" required placeholder="Enter your degree percentage"><br><br>
+     
+     <button Type="submit" value="Submit" >Submit</button>
+     <button Type="reset" value="Cancel" >Cancel</button>
+    
+  </body>
+</html>
